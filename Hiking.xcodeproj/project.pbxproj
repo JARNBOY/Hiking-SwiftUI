@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB905EEC2A43435E003BE783 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB905EEB2A43435E003BE783 /* GradientButtonStyle.swift */; };
 		FB9D84432A42F3D7009FEE4A /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84422A42F3D7009FEE4A /* HikingApp.swift */; };
 		FB9D84452A42F3D7009FEE4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84442A42F3D7009FEE4A /* ContentView.swift */; };
 		FB9D84472A42F3D9009FEE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9D84462A42F3D9009FEE4A /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB905EEB2A43435E003BE783 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		FB9D843F2A42F3D7009FEE4A /* Hiking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9D84422A42F3D7009FEE4A /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		FB9D84442A42F3D7009FEE4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FB9D84562A42FC7F009FEE4A /* ColorExtension.swift */,
+				FB905EEB2A43435E003BE783 /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				FB9D84512A42F715009FEE4A /* CardView.swift in Sources */,
 				FB9D84432A42F3D7009FEE4A /* HikingApp.swift in Sources */,
 				FB9D84592A430C9A009FEE4A /* CustomButtonView.swift in Sources */,
+				FB905EEC2A43435E003BE783 /* GradientButtonStyle.swift in Sources */,
 				FB9D84542A42F99B009FEE4A /* CustomBackgroundView.swift in Sources */,
 				FB9D84572A42FC7F009FEE4A /* ColorExtension.swift in Sources */,
 			);
