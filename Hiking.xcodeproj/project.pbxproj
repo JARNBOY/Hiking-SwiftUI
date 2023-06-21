@@ -14,6 +14,7 @@
 		FB9D84512A42F715009FEE4A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84502A42F715009FEE4A /* CardView.swift */; };
 		FB9D84542A42F99B009FEE4A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84532A42F99B009FEE4A /* CustomBackgroundView.swift */; };
 		FB9D84572A42FC7F009FEE4A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84562A42FC7F009FEE4A /* ColorExtension.swift */; };
+		FB9D84592A430C9A009FEE4A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D84582A430C9A009FEE4A /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FB9D84502A42F715009FEE4A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FB9D84532A42F99B009FEE4A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		FB9D84562A42FC7F009FEE4A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FB9D84582A430C9A009FEE4A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				FB9D84502A42F715009FEE4A /* CardView.swift */,
 				FB9D84532A42F99B009FEE4A /* CustomBackgroundView.swift */,
+				FB9D84582A430C9A009FEE4A /* CustomButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				FB9D84452A42F3D7009FEE4A /* ContentView.swift in Sources */,
 				FB9D84512A42F715009FEE4A /* CardView.swift in Sources */,
 				FB9D84432A42F3D7009FEE4A /* HikingApp.swift in Sources */,
+				FB9D84592A430C9A009FEE4A /* CustomButtonView.swift in Sources */,
 				FB9D84542A42F99B009FEE4A /* CustomBackgroundView.swift in Sources */,
 				FB9D84572A42FC7F009FEE4A /* ColorExtension.swift in Sources */,
 			);
@@ -303,7 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,7 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
